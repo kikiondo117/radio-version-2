@@ -19,6 +19,18 @@ export const ProgrammingVariants = {
   },
 };
 
+export const ProgrammingVariantsMobile = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+  },
+  exit: {
+    opacity: 0,
+  },
+};
+
 export const ProgrammingStyles = styled(motion.div)((props) => ({
   fontWeight: 500,
   fontSize: 14,
