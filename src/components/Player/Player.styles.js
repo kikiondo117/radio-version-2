@@ -6,8 +6,8 @@ export const PlayerStyles = styled.div(() => ({
   },
   "& .Button-size": {
     cursor: "pointer",
-    fontSize: "2rem",
-    "@media screen and (min-width: 500px)": {
+    fontSize: "2.5rem",
+    "@media screen and (min-width: 800px)": {
       fontSize: "5rem",
     },
   },

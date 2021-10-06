@@ -3,7 +3,6 @@ import { MainStyles } from "./Main.styles";
 // * Components
 import { Player } from "components/Player/Player";
 import useWindowSize from "hooks/useWindowSize";
-import { Box } from "shared/components/Box/Box";
 import { Programming } from "components/Programming/Programming";
 
 function Main() {
@@ -18,7 +17,6 @@ function Main() {
       <React.Fragment>
         <div className="Mobile-box">
           <Player />
-          <Box ml="10px">¿Por qué nos hemos deshumanizado?</Box>
         </div>
       </React.Fragment>
     );
