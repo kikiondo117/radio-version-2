@@ -17,7 +17,6 @@ function Player() {
         ref={audioRef}
         className="Player-button"
         src="https://stream5.mexiserver.com/proxy/radiochilanga/stream"
-        autoPlay
         controls
       />
 

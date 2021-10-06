@@ -1,7 +1,7 @@
 import React from "react";
 
 function usePlayer(audioRef) {
-  const [isPlay, setIsPlay] = React.useState(true);
+  const [isPlay, setIsPlay] = React.useState(false);
   const [isMuted, setIsMuted] = React.useState(false);
 
   const handlePlay = () => {
