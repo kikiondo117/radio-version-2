@@ -1,18 +1,11 @@
 import React from "react";
 import moment from "moment";
 // * Styles
-import {
-  ProgrammingStyles,
-  ProgrammingVariants,
-  ProgrammingVariantsMobile,
-} from "./Programming.styles";
+import { ProgrammingStyles, ProgrammingVariants } from "./Programming.styles";
 // * Assets
 import * as programming from "assets/programacion";
-// * Componentsd and hooks
-import useWindowSize from "../../hooks/useWindowSize";
 
 function Programming() {
-  const { width } = useWindowSize();
   const [day] = React.useState(() => {
     const currentDay = moment().day();
     const dia = programming.days[currentDay];
@@ -21,7 +14,7 @@ function Programming() {
 
   return (
     <ProgrammingStyles
-      variants={width > 500 ? ProgrammingVariants : ProgrammingVariantsMobile}
+      variants={ProgrammingVariants}
       initial="hidden"
       animate="visible"
     >

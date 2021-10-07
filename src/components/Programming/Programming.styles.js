@@ -3,28 +3,14 @@ import { motion } from "framer-motion";
 
 export const ProgrammingVariants = {
   hidden: {
-    y: "-150vh",
-    opacity: 0,
+    scale: 0.5,
   },
   visible: {
-    y: 0,
+    scale: 1,
     transition: {
       type: "spring",
-      stiffness: 120,
+      stiffness: 300,
     },
-    opacity: 1,
-  },
-  exit: {
-    opacity: 0,
-  },
-};
-
-export const ProgrammingVariantsMobile = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
   },
   exit: {
     opacity: 0,

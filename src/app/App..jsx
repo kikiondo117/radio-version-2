@@ -2,8 +2,13 @@ import { Helmet } from "react-helmet";
 import { AppStyles } from "./App.styles";
 // * Assets
 import logo from "img/RADIO-1-TINTA-VERTICAL-BLANCO.svg";
+import { PlayerMobile } from "components/PlayerMobile/PlayerMobile";
+import useWindowSize from "hooks/useWindowSize";
+import { Header } from "components/Header/Header";
 
 function App({ children }) {
+  const { width } = useWindowSize();
+
   return (
     <AppStyles>
       <Helmet>
@@ -14,12 +19,9 @@ function App({ children }) {
         />
         <meta property="og:image" content={logo} />
       </Helmet>
-      <img
-        src={logo}
-        style={{ width: "80px", position: "fixed", top: 10 }}
-        alt="Logo radio chilanga"
-      />
+      <Header />
       {children}
+      {width < 800 && <PlayerMobile />}
     </AppStyles>
   );
 }

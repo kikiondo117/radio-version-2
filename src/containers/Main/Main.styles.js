@@ -3,6 +3,7 @@ import styled from "@emotion/styled/macro";
 export const MainStyles = styled.div(() => ({
   display: "grid",
   height: "100%",
+
   "@media screen and (min-width: 800px)": {
     gridTemplateColumns: "repeat(2, 1fr)",
   },
@@ -31,7 +32,7 @@ export const MainStyles = styled.div(() => ({
 
   "& .Schedule-container": {
     background: "rgba(0,0,0,.8)",
-    paddingTop: "90px",
+    paddingTop: "150px",
     order: 1,
     "@media screen and (min-width: 800px)": {
       paddingTop: "0",

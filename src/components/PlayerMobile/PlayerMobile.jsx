@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonVariant, PlayerStyles } from "./Player.styles";
+import { PlayerMobileStyles } from "./PlayerMobile.styles";
 // * Components
 import { BsPlayCircle, BsPauseCircle } from "react-icons/bs";
 import { usePlayer } from "hooks/usePlayer";
@@ -7,17 +7,12 @@ import { usePlayer } from "hooks/usePlayer";
 // src="https://radiochilanga.out.airtime.pro/radiochilanga_a"
 // src="http://192.187.112.50:8072/stream"
 
-function Player() {
+function PlayerMobile() {
   const audioRef = React.useRef(null);
   const { isPlay, handlePlay, handlePause } = usePlayer(audioRef);
 
   return (
-    <PlayerStyles
-      variants={ButtonVariant}
-      initial="hidden"
-      animate="visible"
-      whileHover="hover"
-    >
+    <PlayerMobileStyles>
       <audio
         ref={audioRef}
         className="Player-button"
@@ -30,8 +25,8 @@ function Player() {
       ) : (
         <BsPlayCircle onClick={handlePlay} className="Button-size" />
       )}
-    </PlayerStyles>
+    </PlayerMobileStyles>
   );
 }
 
-export { Player };
+export { PlayerMobile };
