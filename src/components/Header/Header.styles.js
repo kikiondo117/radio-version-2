@@ -16,6 +16,8 @@ export const HeaderStyles = styled.div(
     },
 
     "& .Menu-item": {
+      borderRadius: 100,
+      padding: ".5em",
       color: theme.colors.black,
       fontWeight: 800,
       textDecoration: "none",

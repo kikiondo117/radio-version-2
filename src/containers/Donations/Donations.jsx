@@ -3,22 +3,22 @@ import { DonationsStyles } from "./Donations.styles";
 
 function Donations() {
   return (
-    <DonationsStyles>
-      <div
-        style={{
-          backgroundColor: "yellow",
-          color: "black",
-          fontWeight: 800,
-          padding: "1em",
-        }}
-      >
-        Proximamente
+    <DonationsStyles pt={100} pl={[50, 100]} pr={[50, 100]}>
+      <h2 className="Title">Sé un patrocinador</h2>
+
+      <p className="Text">
+        Radio Chilanga es un espacio que permite ser parte de la comunidad de
+        radio escuchas, conectar con publico de varias edades para llebar a tu
+        negocio o evento a otro nivel. Es una gran oportunidad de trabajar en
+        conjunto con tu empresa, contamos con distintos niveles de patrocinios
+        para dar valor a tu marca. Conoce la información aquí.
+      </p>
+
+      <p className="Text">¡Contáctanos! - </p>
+
+      <div className="Brands">
+        <h3 className="Title">Patrocinadores</h3>
       </div>
-      <img
-        style={{ width: 300 }}
-        src="https://i.pinimg.com/originals/17/be/3b/17be3b00e9b41f69d1973ea10b3965a1.gif"
-        alt="milhouse"
-      />
     </DonationsStyles>
   );
 }
