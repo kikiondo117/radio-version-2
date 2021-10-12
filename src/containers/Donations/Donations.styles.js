@@ -1,7 +1,8 @@
 import styled from "@emotion/styled";
 import { space } from "styled-system";
+import { motion } from "framer-motion";
 
-export const DonationsStyles = styled.div(
+export const DonationsStyles = styled(motion.div)(
   ({ theme }) => ({
     background: "rgba(0,0,0, .5)",
     color: theme.colors.white,
@@ -11,21 +12,15 @@ export const DonationsStyles = styled.div(
     display: "flex",
     flexDirection: "column",
 
-    "& .Title": {
-      padding: ".5em",
-      fontWeight: 800,
-      width: "fit-content",
-      display: "inline-block",
-      background: theme.colors.yellow,
-      color: theme.colors.black,
-    },
-
     "& .Text": {
       paddingLeft: "1em",
       fontWeight: 600,
     },
 
-    "& .Brands": {},
+    "& .Brands": {
+      display: "flex",
+      flexFlow: "column",
+    },
   }),
   space
 );

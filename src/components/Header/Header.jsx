@@ -11,7 +11,7 @@ function Header() {
         <img src={logo} style={{ width: "80px" }} alt="Logo radio chilanga" />
       </Link>
       <Link to="/donations" className="Menu-item">
-        Quiero ser patrocinador
+        ¡Quiero ser patrocinador!
       </Link>
     </HeaderStyles>
   );

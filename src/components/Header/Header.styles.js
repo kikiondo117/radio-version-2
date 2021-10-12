@@ -16,6 +16,7 @@ export const HeaderStyles = styled.div(
     },
 
     "& .Menu-item": {
+      fontStyle: "italic",
       borderRadius: 100,
       padding: ".5em",
       color: theme.colors.black,
@@ -24,7 +25,7 @@ export const HeaderStyles = styled.div(
       cursor: "pointer",
       background: theme.colors.yellow,
       "&:hover": {
-        background: theme.colors.main,
+        background: theme.colors.white,
       },
     },
   }),
