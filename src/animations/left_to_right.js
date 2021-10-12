@@ -44,3 +44,23 @@ export const left_to_right2 = {
     opacity: 0,
   },
 };
+
+export const left_to_right_loop = {
+  start: {
+    scale: 0.5,
+    rotate: 180,
+  },
+  animate: {
+    scale: 1,
+    rotate: 0,
+    transition: {
+      repeatType: "loop",
+    },
+  },
+  hover: {
+    scale: 1.2,
+  },
+  exit: {
+    opacity: 0,
+  },
+};

@@ -15,6 +15,12 @@ export const HeaderStyles = styled.div(
       padding: ".5em",
     },
 
+    "& .Menu-logo": {
+      padding: ".5em",
+      background: "black",
+      borderRadius: "10%",
+    },
+
     "& .Menu-item": {
       fontStyle: "italic",
       borderRadius: 100,

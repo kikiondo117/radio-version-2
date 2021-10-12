@@ -8,9 +8,14 @@ function Header() {
   return (
     <HeaderStyles pl={"1em"} pr={"1em"}>
       <Link to="/">
-        <img src={logo} style={{ width: "80px" }} alt="Logo radio chilanga" />
+        <img
+          className="Menu-logo"
+          src={logo}
+          style={{ width: "80px" }}
+          alt="Logo radio chilanga"
+        />
       </Link>
-      <Link to="/donations" className="Menu-item">
+      <Link to="/patron" className="Menu-item">
         ¡Quiero ser patrocinador!
       </Link>
     </HeaderStyles>

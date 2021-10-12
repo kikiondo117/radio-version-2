@@ -1,18 +1,17 @@
 import React from "react";
 import { Title } from "shared/components/Title/Title";
-import { DonationsStyles } from "./Donations.styles";
+import { PatronStyles } from "./Patreon.styles";
 // * Animations
 import { left_to_right2 } from "animations/left_to_right";
 
-function Donations() {
+function Patreon() {
   return (
-    <DonationsStyles pt={100} pl={[50, 100]} pr={[50, 100]}>
+    <PatronStyles pt={130} pl={[50, 100]} pr={[50, 100]}>
       <Title
         className="Title"
         variants={left_to_right2}
         initial="start"
         animate="animate"
-        whileHover="hover"
       >
         Sé un patrocinador
       </Title>
@@ -25,7 +24,16 @@ function Donations() {
         para dar valor a tu marca. Conoce la información aquí.
       </p>
 
-      <p>¡Contáctanos! - 3121838986 </p>
+      <p
+        style={{
+          color: "white",
+          background: "black",
+          display: "inline-block",
+          width: "fit-content",
+        }}
+      >
+        ¡Contáctanos! - 3121838986{" "}
+      </p>
 
       <div className="Brands">
         <Title
@@ -33,7 +41,6 @@ function Donations() {
           variants={left_to_right2}
           initial="start"
           animate="animate"
-          whileHover="hover"
         >
           Patrocinadores
         </Title>
@@ -49,8 +56,8 @@ function Donations() {
           Proximamente
         </p>
       </div>
-    </DonationsStyles>
+    </PatronStyles>
   );
 }
 
-export { Donations };
+export { Patreon };
