@@ -7,7 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "@emotion/react";
 import { theme } from "./theme/index";
 // Navigation
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import { Navigation } from "routes/Navigation";
 import { GlobalProvider } from "store/Global.store";
 

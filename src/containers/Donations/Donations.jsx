@@ -14,7 +14,7 @@ function Donations() {
         para dar valor a tu marca. Conoce la información aquí.
       </p>
 
-      <p className="Text">¡Contáctanos! - </p>
+      <p className="Text">¡Contáctanos! - 3121838986 </p>
 
       <div className="Brands">
         <h3 className="Title">Patrocinadores</h3>
