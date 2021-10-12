@@ -6,7 +6,7 @@ import { useGlobalStore } from "store/Global.store";
 import { BsPlayCircle, BsPauseCircle } from "react-icons/bs";
 
 function PlayerMobile() {
-  const [state, dispatch] = useGlobalStore();
+  const [state] = useGlobalStore();
 
   return (
     <PlayerMobileStyles>

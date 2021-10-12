@@ -5,7 +5,7 @@ import { BsPlayCircle, BsPauseCircle } from "react-icons/bs";
 import { useGlobalStore } from "store/Global.store";
 
 function Player() {
-  const [state, dispatch] = useGlobalStore();
+  const [state] = useGlobalStore();
 
   return (
     <PlayerStyles
