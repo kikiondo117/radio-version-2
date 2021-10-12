@@ -14,14 +14,11 @@ export const PlayerMobileStyles = styled.div(() => ({
   position: "fixed",
   bottom: 0,
 
-  "& .Player-button": {
-    display: "none",
-  },
   "& .Button-size": {
     cursor: "pointer",
     fontSize: "2.5rem",
     "@media screen and (min-width: 800px)": {
-      fontSize: "5rem",
+      fontSize: "3rem",
     },
   },
 }));

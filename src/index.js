@@ -9,14 +9,17 @@ import { theme } from "./theme/index";
 // Navigation
 import { BrowserRouter as Router } from "react-router-dom";
 import { Navigation } from "routes/Navigation";
+import { GlobalProvider } from "store/Global.store";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <Router>
-        <Navigation />
-      </Router>
-    </ThemeProvider>
+    <GlobalProvider>
+      <ThemeProvider theme={theme}>
+        <Router>
+          <Navigation />
+        </Router>
+      </ThemeProvider>
+    </GlobalProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

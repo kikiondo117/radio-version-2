@@ -5,9 +5,11 @@ import logo from "img/RADIO-1-TINTA-VERTICAL-BLANCO.svg";
 import { PlayerMobile } from "components/PlayerMobile/PlayerMobile";
 import useWindowSize from "hooks/useWindowSize";
 import { Header } from "components/Header/Header";
+import { useLocation } from "react-router-dom";
 
 function App({ children }) {
   const { width } = useWindowSize();
+  const location = useLocation();
 
   return (
     <AppStyles>
@@ -22,6 +24,7 @@ function App({ children }) {
       <Header />
       {children}
       {width < 800 && <PlayerMobile />}
+      {location.pathname !== "/" ? <PlayerMobile /> : null}
     </AppStyles>
   );
 }

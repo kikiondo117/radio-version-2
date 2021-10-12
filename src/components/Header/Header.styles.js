@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { space } from "styled-system";
 
 export const HeaderStyles = styled.div(
-  () => ({
+  ({ theme }) => ({
     alignItems: "center",
     display: "flex",
     justifyContent: "space-between",
@@ -16,12 +16,13 @@ export const HeaderStyles = styled.div(
     },
 
     "& .Menu-item": {
-      color: "white",
+      color: theme.colors.black,
       fontWeight: 800,
       textDecoration: "none",
       cursor: "pointer",
+      background: theme.colors.yellow,
       "&:hover": {
-        background: "red",
+        background: theme.colors.main,
       },
     },
   }),
