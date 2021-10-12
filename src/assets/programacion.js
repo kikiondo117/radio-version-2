@@ -12,71 +12,71 @@ export const Felix = {
   locutor: "Felix",
   lunes: [
     {
-      hora: "3:00 p.m - 4:00 p.m",
+      hora: "1:30 p.m - 2:00 p.m",
       programa: "Los cuatro grandes en el cielo",
     },
     {
-      hora: "4:00 p.m - 5:00 p.m",
+      hora: "3:00 p.m - 4:00 p.m",
       programa: "¿Por qué nos hemos deshumanizado?",
     },
     {
-      hora: "5:00 p.m - 6:00 p.m",
+      hora: "4:00 p.m - 7:00 p.m",
       programa: "Viejitas pero bonitas y complacencias",
     },
   ],
   martes: [
     {
-      hora: "3:00 p.m - 4:00 p.m",
+      hora: "1:30 p.m - 2:00 p.m",
       programa: "Los cuatro grandes en el cielo",
     },
     {
-      hora: "4:00 p.m - 5:00 p.m",
+      hora: "3:00 p.m - 4:00 p.m",
       programa: "¿Por qué nos hemos deshumanizado?",
     },
     {
-      hora: "5:00 p.m - 6:00 p.m",
+      hora: "4:00 p.m - 7:00 p.m",
       programa: "Viejitas pero bonitas y complacencias",
     },
   ],
   miercoles: [
     {
-      hora: "3:00 p.m - 4:00 p.m",
+      hora: "1:30 p.m - 2:00 p.m",
       programa: "Los cuatro grandes en el cielo",
     },
     {
-      hora: "4:00 p.m - 5:00 p.m",
+      hora: "3:00 p.m - 4:00 p.m",
       programa: "¿Por qué nos hemos deshumanizado?",
     },
     {
-      hora: "5:00 p.m - 6:00 p.m",
+      hora: "4:00 p.m - 7:00 p.m",
       programa: "Viejitas pero bonitas y complacencias",
     },
   ],
   jueves: [
     {
-      hora: "3:00 p.m - 4:00 p.m",
+      hora: "1:30 p.m - 2:00 p.m",
       programa: "Los cuatro grandes en el cielo",
     },
     {
-      hora: "4:00 p.m - 5:00 p.m",
+      hora: "3:00 p.m - 4:00 p.m",
       programa: "¿Por qué nos hemos deshumanizado?",
     },
     {
-      hora: "5:00 p.m - 6:00 p.m",
+      hora: "4:00 p.m - 7:00 p.m",
       programa: "Viejitas pero bonitas y complacencias",
     },
   ],
   viernes: [
     {
-      hora: "3:00 p.m - 4:00 p.m",
+      hora: "1:30 p.m - 2:00 p.m",
       programa: "Los cuatro grandes en el cielo",
     },
     {
-      hora: "4:00 p.m - 5:00 p.m",
+      hora: "3:00 p.m - 4:00 p.m",
       programa: "¿Por qué nos hemos deshumanizado?",
     },
     {
-      hora: "5:00 p.m - 6:00 p.m",
+      hora: "4:00 p.m - 7:00 p.m",
       programa: "Viejitas pero bonitas y complacencias",
     },
   ],
