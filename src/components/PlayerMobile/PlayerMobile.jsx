@@ -4,6 +4,7 @@ import { PlayerMobileStyles } from "./PlayerMobile.styles";
 import { useGlobalStore } from "store/Global.store";
 // * Components
 import { BsPlayCircle, BsPauseCircle } from "react-icons/bs";
+import { Donation } from "components/Donation/Donation";
 
 function PlayerMobile() {
   const [state] = useGlobalStore();
@@ -15,6 +16,7 @@ function PlayerMobile() {
       ) : (
         <BsPlayCircle onClick={state.handlePlay} className="Button-size" />
       )}
+      <Donation />
     </PlayerMobileStyles>
   );
 }

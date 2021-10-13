@@ -4,6 +4,8 @@ import { Redirect, Route, Switch } from "react-router-dom";
 import { App } from "app/App.";
 import { Main } from "containers/Main/Main";
 import { Patreon } from "containers/Patreon/Patreon";
+import { Completed } from "containers/Completed/Completed";
+import { Cancel } from "containers/Cancel/Cancel";
 
 function Navigation() {
   return (
@@ -11,6 +13,8 @@ function Navigation() {
       <Switch>
         <Route path="/" component={Main} exact />
         <Route path="/patron" component={Patreon} exact />
+        <Route path="/completed" component={Completed} exact />
+        <Route path="/cancel" component={Cancel} exact />
         <Route render={() => <Redirect to="/" />} />
       </Switch>
     </App>
