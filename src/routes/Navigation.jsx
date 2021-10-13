@@ -13,8 +13,8 @@ function Navigation() {
       <Switch>
         <Route path="/" component={Main} exact />
         <Route path="/patron" component={Patreon} exact />
-        <Route path="/completed" component={Completed} exact />
         <Route path="/cancel" component={Cancel} exact />
+        <Route path="/completed" component={Completed} exact />
         <Route render={() => <Redirect to="/" />} />
       </Switch>
     </App>
