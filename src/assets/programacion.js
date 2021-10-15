@@ -9,7 +9,7 @@ export const days = {
 };
 
 export const Felix = {
-  locutor: "Felix",
+  locutor: "Manuel Vera",
   lunes: [
     {
       hora: "1:30 p.m - 2:00 p.m",

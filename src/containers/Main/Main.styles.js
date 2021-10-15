@@ -1,6 +1,6 @@
 import styled from "@emotion/styled/macro";
 
-export const MainStyles = styled.div(() => ({
+export const MainStyles = styled.div(({ theme }) => ({
   display: "grid",
   height: "100%",
 
@@ -48,5 +48,10 @@ export const MainStyles = styled.div(() => ({
     display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
+  },
+
+  "& .Contact-number": {
+    fontWeight: 800,
+    color: theme.colors.main,
   },
 }));
