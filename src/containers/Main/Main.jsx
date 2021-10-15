@@ -19,7 +19,9 @@ function Main() {
 
       <div className="Schedule-container">
         <Programming />
-        <span style={{ marginTop: 30 }}>Numero para mandar saludos:</span>
+        <span style={{ marginTop: 30, color: "white" }}>
+          Numero para mandar saludos:
+        </span>
         <span className="Contact-number">+52 55 8795 2622</span>
       </div>
     </MainStyles>
