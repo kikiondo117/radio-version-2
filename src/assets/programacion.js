@@ -9,7 +9,7 @@ export const days = {
 };
 
 export const Felix = {
-  locutor: "Manuel Vera",
+  locutor: "Manuel Vera +52 55 8795 2622",
   lunes: [
     {
       hora: "1:30 p.m - 2:00 p.m",
@@ -120,4 +120,40 @@ export const Chema = {
   domingo: [],
 };
 
-export const Schedule = [Felix, Chema];
+export const Doctora = {
+  locutor: "Dr Itzel",
+  lunes: [
+    {
+      hora: "8:00 p.m - 10:00 p.m",
+      programa: "La fuerza del amor",
+    },
+  ],
+  martes: [
+    {
+      hora: "8:00 p.m - 10:00 p.m",
+      programa: "La fuerza del amor",
+    },
+  ],
+  miercoles: [
+    {
+      hora: "8:00 p.m - 10:00 p.m",
+      programa: "La fuerza del amor",
+    },
+  ],
+  jueves: [
+    {
+      hora: "8:00 p.m - 10:00 p.m",
+      programa: "La fuerza del amor",
+    },
+  ],
+  viernes: [
+    {
+      hora: "8:00 p.m - 10:00 p.m",
+      programa: "La fuerza del amor",
+    },
+  ],
+  sabado: [],
+  domingo: [],
+};
+
+export const Schedule = [Felix, Chema, Doctora];
