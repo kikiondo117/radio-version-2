@@ -20,8 +20,8 @@ export const Felix = {
       programa: "¿Por qué nos hemos deshumanizado?",
     },
     {
-      hora: "4:00 p.m - 7:00 p.m",
-      programa: "Viejitas pero bonitas y complacencias",
+      hora: "4:30 p.m - 5:00 p.m",
+      programa: "La hora romantica",
     },
   ],
   martes: [
@@ -34,8 +34,8 @@ export const Felix = {
       programa: "¿Por qué nos hemos deshumanizado?",
     },
     {
-      hora: "4:00 p.m - 7:00 p.m",
-      programa: "Viejitas pero bonitas y complacencias",
+      hora: "4:30 p.m - 5:00 p.m",
+      programa: "La hora romantica",
     },
   ],
   miercoles: [
@@ -48,8 +48,8 @@ export const Felix = {
       programa: "¿Por qué nos hemos deshumanizado?",
     },
     {
-      hora: "4:00 p.m - 7:00 p.m",
-      programa: "Viejitas pero bonitas y complacencias",
+      hora: "4:30 p.m - 5:00 p.m",
+      programa: "La hora romantica",
     },
   ],
   jueves: [
@@ -62,8 +62,8 @@ export const Felix = {
       programa: "¿Por qué nos hemos deshumanizado?",
     },
     {
-      hora: "4:00 p.m - 7:00 p.m",
-      programa: "Viejitas pero bonitas y complacencias",
+      hora: "4:30 p.m - 5:00 p.m",
+      programa: "La hora romantica",
     },
   ],
   viernes: [
@@ -76,8 +76,8 @@ export const Felix = {
       programa: "¿Por qué nos hemos deshumanizado?",
     },
     {
-      hora: "4:00 p.m - 7:00 p.m",
-      programa: "Viejitas pero bonitas y complacencias",
+      hora: "4:30 p.m - 5:00 p.m",
+      programa: "La hora romantica",
     },
   ],
   sabado: [],
