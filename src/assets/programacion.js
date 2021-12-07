@@ -84,44 +84,44 @@ export const Felix = {
   domingo: [],
 };
 
-export const Chema = {
-  locutor: "Chema",
-  lunes: [
-    {
-      hora: "2:00 p.m - 3:00 p.m",
-      programa: "Hits del momento 2021 - Hasta ahora",
-    },
-  ],
-  martes: [
-    {
-      hora: "2:00 p.m - 3:00 p.m",
-      programa: "Hits del momento 2021 - Hasta ahora",
-    },
-  ],
-  miercoles: [
-    {
-      hora: "2:00 p.m - 3:00 p.m",
-      programa: "Hits del momento 2021 - Hasta ahora",
-    },
-  ],
-  jueves: [
-    {
-      hora: "2:00 p.m - 3:00 p.m",
-      programa: "Hits del momento 2021 - Hasta ahora",
-    },
-  ],
-  viernes: [
-    {
-      hora: "2:00 p.m - 3:00 p.m",
-      programa: "¿Por qué nos hemos deshumanizado?",
-    },
-  ],
-  sabado: [],
-  domingo: [],
-};
+// export const Chema = {
+//   locutor: "Chema",
+//   lunes: [
+//     {
+//       hora: "2:00 p.m - 3:00 p.m",
+//       programa: "Hits del momento 2021 - Hasta ahora",
+//     },
+//   ],
+//   martes: [
+//     {
+//       hora: "2:00 p.m - 3:00 p.m",
+//       programa: "Hits del momento 2021 - Hasta ahora",
+//     },
+//   ],
+//   miercoles: [
+//     {
+//       hora: "2:00 p.m - 3:00 p.m",
+//       programa: "Hits del momento 2021 - Hasta ahora",
+//     },
+//   ],
+//   jueves: [
+//     {
+//       hora: "2:00 p.m - 3:00 p.m",
+//       programa: "Hits del momento 2021 - Hasta ahora",
+//     },
+//   ],
+//   viernes: [
+//     {
+//       hora: "2:00 p.m - 3:00 p.m",
+//       programa: "¿Por qué nos hemos deshumanizado?",
+//     },
+//   ],
+//   sabado: [],
+//   domingo: [],
+// };
 
 export const Doctora = {
-  locutor: "Dr Itzel",
+  locutor: "Dra Itzel +52 55 4075 6390",
   lunes: [
     {
       hora: "8:00 p.m - 10:00 p.m",
@@ -156,4 +156,4 @@ export const Doctora = {
   domingo: [],
 };
 
-export const Schedule = [Felix, Chema, Doctora];
+export const Schedule = [Felix, Doctora];
