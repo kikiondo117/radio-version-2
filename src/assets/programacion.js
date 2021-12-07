@@ -21,7 +21,7 @@ export const Felix = {
     },
     {
       hora: "4:30 p.m - 5:00 p.m",
-      programa: "La hora romantica",
+      programa: "La hora romántica",
     },
   ],
   martes: [
