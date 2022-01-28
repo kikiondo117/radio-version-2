@@ -9,7 +9,7 @@ import { theme } from "./theme/index";
 // Navigation
 import { HashRouter as Router } from "react-router-dom";
 import { Navigation } from "routes/Navigation";
-import { GlobalProvider } from "store/Global.store";
+import { GlobalProvider } from "context/Global.store";
 
 ReactDOM.render(
   <React.StrictMode>

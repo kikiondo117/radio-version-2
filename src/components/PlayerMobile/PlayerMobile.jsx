@@ -1,7 +1,7 @@
 import React from "react";
 import { PlayerMobileStyles } from "./PlayerMobile.styles";
 // * Hooks
-import { useGlobalStore } from "store/Global.store";
+import { useGlobalStore } from "context/Global.store";
 // * Components
 import { BsPlayCircle, BsPauseCircle } from "react-icons/bs";
 import { Donation } from "components/Donation/Donation";

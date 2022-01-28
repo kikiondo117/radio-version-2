@@ -18,13 +18,14 @@ export function GlobalProvider({ children }) {
   // src="https://stream.zeno.fm/9yuvagbx4s8uv.aac"
   // src="https://radiochilanga.out.airtime.pro/radiochilanga_a"
   // src="http://192.187.112.50:8072/stream"
+  //  src="https://stream5.mexiserver.com/proxy/radiochilanga/stream"
 
   return (
     <GlobalContext.Provider value={value}>
       <audio
         ref={audioRef}
         style={{ display: "none" }}
-        src="https://stream5.mexiserver.com/proxy/radiochilanga/stream"
+        src="https://stream.zeno.fm/9yuvagbx4s8uv.aac"
         controls
       />
 

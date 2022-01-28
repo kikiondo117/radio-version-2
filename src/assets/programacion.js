@@ -12,15 +12,19 @@ export const Felix = {
   locutor: "Manuel Vera +52 55 8795 2622",
   lunes: [
     {
-      hora: "1:30 p.m - 2:00 p.m",
-      programa: "Los cuatro grandes en el cielo",
+      hora: "1:30 p.m - 2:30 p.m",
+      programa: "4 grandes en el cielo",
+    },
+    {
+      hora: "2:30 p.m - 3:00 p.m",
+      programa: "Música varida",
     },
     {
       hora: "3:00 p.m - 4:00 p.m",
-      programa: "¿Por qué nos hemos deshumanizado?",
+      programa: "¿Por qúe no hemos deshumanizado",
     },
     {
-      hora: "4:30 p.m - 5:00 p.m",
+      hora: "4:00 p.m - 5:00 p.m",
       programa: "La hora romántica",
     },
   ],

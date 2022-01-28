@@ -2,7 +2,7 @@ import React from "react";
 import { ButtonVariant, PlayerStyles } from "./Player.styles";
 // * Components
 import { BsPlayCircle, BsPauseCircle } from "react-icons/bs";
-import { useGlobalStore } from "store/Global.store";
+import { useGlobalStore } from "context/Global.store";
 
 function Player() {
   const [state] = useGlobalStore();
